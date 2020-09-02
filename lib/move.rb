@@ -11,7 +11,7 @@ def input_to_index(ueser_input)
  ueser_input.to_i-1
 end
 
-def move(board, position, char1="X", char2="O")
+def move(board, position, char1="X",)
   board[position] = char
   
 end
